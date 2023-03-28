@@ -26,22 +26,44 @@
 <label for="lname">Last Name</label>
 <input type="text" id="lname" name="lname" required> <br><br>
 <p><b>Gender:</b></p>
-<label for="Male" style="margin: 7%;" >Male</label>
-<input type="radio" id="male" name="gender" value="male" style="margin-left: -4%;"><br>
-<label for="Female" style="margin: 7%;">Female</label>
-<input type="radio" id="female" name="gender" value="female" style="margin-left: -5.6%;"  ><br>
-<label for="others" style="margin: 7%;">Others</label>
-<input type="radio" id="no" name="gender" value="others" style="margin-left: -5.1%;"><br>
-<br>
+<table style="margin-left: 5%;">
+    <tr>
+    <td>
+<label for="Male" >Male</label></td>
+<td><input type="radio" id="male" name="gender" value="male"></td>
+</tr>
+<tr>
+    <td>
+<label for="Female">Female</label></td>
+<td><input type="radio" id="female" name="gender" value="female" ></td>
+</tr>
+<tr>
+<td>
+<label for="others">Others</label> </td>
+<td>
+<input type="radio" id="no" name="gender" value="others" > </td>
+</tr>
+</table>
 <p><b>Select your programming skills:</b></p>
-<label for="HTML" style="margin-left: 5%;">HTML</label>
-<input type="checkbox" style="margin-left: 3.4%;"><br>
-<label for="CSS" style="margin-left: 5%;">CSS</label>
-<input type="checkbox" style="margin-left: 5.2%;"><br>
-<label for="JavaScript" style="margin-left: 5%;">JavaScript</label>
-<input type="checkbox" style="margin-left: 1%;"></input><br>
-
-<br><label for="Message" >Write Something</label><br>
+<table style="margin-left: 5%;">
+    <tr>
+        <td>
+<label for="HTML">HTML</label></td>
+<td><input type="checkbox" ></td>
+</tr>
+<tr>
+<td>
+<label for="CSS">CSS</label></td>
+<td><input type="checkbox" ></td>
+</tr
+<tr>
+    <td>
+<label for="JavaScript">JavaScript</label></td>
+<td><input type="checkbox" ></input></td>
+</tr>
+</table>
+<br>
+<label for="Message" >Write Something</label><br>
 <textarea name="Message" id="Message" cols="40" rows="5" required></textarea><br><br>
 <input type="submit"> 
 </form>
